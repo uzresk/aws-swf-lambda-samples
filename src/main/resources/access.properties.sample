@@ -1,0 +1,15 @@
+####### SWF PROD ENDPOINT #######
+service.url=http://swf.ap-northeast-1.amazonaws.com
+
+# Fill in your AWS Access Key ID and Secret Access Key for SWF
+# http://aws.amazon.com/security-credentials
+AWS.Access.ID=
+AWS.Secret.Key=
+
+######## COMMON CONFIG ###########
+domain=Samples
+domainRetentionPeriodInDays=1
+
+####### HelloLambda Sample Config Values ######
+SWF.LambdaRole.ARN=arn:aws:iam::xxxxxxxxxxxxxxxx:role/swf-lambda
+SWF.LambdaFunction.Name=HelloLambda

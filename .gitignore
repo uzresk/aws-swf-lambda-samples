@@ -1,0 +1,7 @@
+/bin/
+/target/
+/.settings/
+/.classpath
+/.project
+*.log
+/src/main/resources/access.properties
